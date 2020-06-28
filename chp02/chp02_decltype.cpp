@@ -20,5 +20,6 @@ int main() {
 	//decltype()内的表达式如果是(变量)，将返回引用类型
 	decltype((i)) d = rj;
 	std::cout << "d is " << d << std::endl;
+	//decltype()内的表达式如果是引用，也将返回引用类型
 	return 0;
 }
