@@ -1,5 +1,5 @@
 #include <iostream>
-int main() {
+int main1() {
 	std::cout << "声明引用和指针 以及 取址操作和解引操作" << std::endl;
 	//initialize a variable
 	int ival = 1024;
@@ -38,4 +38,6 @@ int main() {
 	std::cout << "doubly indirect value: " << ppi << std::endl;
 	std::cout << "use doubly indirect value to get the original value: "
 		<< **ppi << std::endl;
+
+	return 0;
 }
