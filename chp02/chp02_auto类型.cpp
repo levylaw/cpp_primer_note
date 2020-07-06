@@ -1,5 +1,5 @@
 #include <iostream>
-int main() {
+int main2() {
 	int i = 0, &r = i;
 	// i是整型，r是整型i的引用
 	const int ci = i, &cr = ci;

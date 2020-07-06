@@ -1,5 +1,5 @@
 #include <iostream>
-int main() {
+int main2() {
 	typedef double* double_ptr_type;
 	//double_ptr_type 是一个指向double对象的指针类型
 	double wages = 7.5;
