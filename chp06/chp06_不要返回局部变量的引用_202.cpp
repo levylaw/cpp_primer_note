@@ -10,7 +10,7 @@ const string &mans(string &s) {
 	return s;
 };
 
-int main(){
+int main2(){
 	string a;
 	mans(a);
 	cout << "&a is " << &a << endl;
